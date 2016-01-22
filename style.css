@@ -1,0 +1,85 @@
+.verticalLine {
+    border-left:solid 1px black;
+}
+header {
+	background-image: url("https://files.slack.com/files-pri/T04735J22-F0K507TNG/payments-banner-graphic.png");
+	height: 600px;
+	width: 100%;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.ul-left {
+	float: left;
+	padding: 14px 16px;
+}
+.ul-right li {
+	float: right;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+}
+.container-header {
+	text-align: justify;
+	text-align:center;
+	padding: 10em 0;
+	width: 40em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*____________________________________________________________________________*/
+
+.sec1 {
+	text-align: justify;
+	text-align: center;
+	padding: 2em;
+}
+.sec1 > div {
+	width: 250px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+.sec1:after {
+	content: "";
+	display: inline-block;
+}
+
+/*_________________________________________________________________________________*/
+
+.sec2 {
+	background-color: #E8EAF6;
+	border-top: solid 1px #BDBDBD;
+	text-align: center;
+	padding: 2em;
+}
+.sec2 li {
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+/*_________________________________________________________________________*/
+
+.sec3 {
+	text-align: center;
+	background-color: #424242;
+	font-size: 1.5em;
+	padding: 0.5em;
+	color: #FFFFFF;
+}
+
+/*_____________________________________________________________________________*/
+
+.sec4 {
+	text-align: justify;
+}
+.sec4 > div {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
